@@ -1,0 +1,12 @@
+.nav-link:hover {
+    color: orange !important;
+}
+
+.nav-link:active {
+    color: orange
+}
+
+.dropdown:hover > .dropdown-menu{
+    display: block;
+    margin-top: .135em;
+}
