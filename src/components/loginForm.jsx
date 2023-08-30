@@ -4,7 +4,7 @@ function LoginForm() {
   return (
     <>
       <div
-        class="card rounded-5 border-4 mx-auto col-10 col-md-8 col-lg-6 mt-5"
+        class="card border-5 rounded-5 mx-auto col-10 col-md-8 col-lg-6 mt-5"
         style={{
           width: "35rem",
         }}
@@ -26,7 +26,7 @@ function LoginForm() {
           <div class="form-group mx-3 my-2">
             <input
               type="email"
-              class="form-control rounded-pill border-0 text-center"
+              class="form-control my-2 rounded-pill border-0 text-center"
               id="inputEmail"
               placeholder="Introduce tu correo"
               style={{
@@ -37,11 +37,9 @@ function LoginForm() {
                 fontSize: 15,
               }}
             />
-          </div>
-          <div class="form-group mx-3 my-2">
             <input
               type="password"
-              class="form-control rounded-pill border-0 text-center"
+              class="form-control my-2 rounded-pill border-0 text-center"
               id="inputPassword"
               placeholder="Introduce tu contraseña"
               style={{
@@ -128,7 +126,7 @@ function LoginForm() {
           </div>
         </form>
       </div>
-      <Outlet/>
+      <Outlet />
     </>
   );
 }
