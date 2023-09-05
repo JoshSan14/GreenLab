@@ -4,14 +4,14 @@ function NavMenu() {
   return (
     <>
       <nav
-        class="navbar"
+        className="navbar"
         style={{ backgroundColor: "#133100" }}>
 
         {/* Titulo */}
-        <div class="d-flex p-1 m-1">
+        <div className="d-flex p-1 m-1">
           <a
             href="#"
-            class="navbar-brand"
+            className="navbar-brand"
             style={{
               color: "#FFFFFF",
               fontFamily: "Roboto Slab, serif",
@@ -23,10 +23,10 @@ function NavMenu() {
 
         </div>
 
-        <div class="p-auto">
-          <ul class="nav">
-            <li class="nav-item">
-              <a href="#" class="nav-link"
+        <div className="p-auto">
+          <ul className="nav">
+            <li className="nav-item">
+              <a href="#" className="nav-link"
                 style={{
                   color: "#FFFFFF",
                   fontFamily: "Roboto Slab, serif",
@@ -38,30 +38,30 @@ function NavMenu() {
               </a>
             </li>
 
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li className="nav-item dropdown">
+              <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Dropdown
               </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
+              <ul className="dropdown-menu">
+                <li><a className="dropdown-item" href="#">Action</a></li>
+                <li><a className="dropdown-item" href="#">Another action</a></li>
 
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <li className="nav-item dropdown">
+                  <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Dropdown
                   </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <ul className="dropdown-menu">
+                    <li><a className="dropdown-item" href="#">Action</a></li>
+                    <li><a className="dropdown-item" href="#">Another action</a></li>
 
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><a className="dropdown-item" href="#">Something else here</a></li>
                   </ul>
                 </li>
               </ul>
             </li>
 
-            <li class="nav-item">
-              <a href="#" class="nav-link"
+            <li className="nav-item">
+              <a href="#" className="nav-link"
                 style={{
                   color: "#FFFFFF",
                   fontFamily: "Roboto Slab, serif",

@@ -2,8 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavMenu from './components/navmenu';
-import LoginForm from './components/loginForm';
-import RegisterForm from './components/registerForm';
+import LoginForm from './components/forms/loginForm';
+import RegisterForm from './components/forms/registerForm';
 import { Helmet } from 'react-helmet';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
