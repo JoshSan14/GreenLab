@@ -20,8 +20,6 @@ function GeneralResultForm() {
                     </h1>
                 </div>
 
-
-
                 <form>
                     <div className="mx-3 px-4 pb-2">
                         <select class="form-select" aria-label="Default select example">

@@ -4,7 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NavMenu from './components/navmenu';
 import LoginForm from './components/forms/loginForm';
 import RegisterForm from './components/forms/registerForm';
-import GeneralResultForm from './components/forms/generalResultForm';
+import GeneralResultForm from './components/forms/analysisHeader';
+import AnalysisQC from './components/forms/analysisQC';
 import { Helmet } from 'react-helmet';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
@@ -22,8 +23,14 @@ const router = createBrowserRouter([
         element: <RegisterForm/>
       },
       {
-        path: 'analisis',
-        element: <GeneralResultForm/>
+        path: '/analisis',
+        element: <GeneralResultForm/>,
+        children: [
+          {
+            path: 'QC',
+            element: <AnalysisQC/> 
+          }
+        ]
       }
     ]
   }
